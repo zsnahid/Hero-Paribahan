@@ -7,6 +7,7 @@ module.exports = {
                 'custom-green': '#1DD100',
                 'custom-yellow': '#FFBF0F',
                 'custom-pink': '#F78C9C',
+                'button-color': 'rgba(29, 209, 0, 0.15)',
             },
             fontFamily: {
                 inter: 'Inter',
