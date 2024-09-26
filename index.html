@@ -33,6 +33,9 @@
                         inter: 'Inter',
                         raleway: 'Raleway',
                     },
+                    backgroundImage: {
+                        'hero-image': "url(./images/banner.png)",
+                    }
                 }
             }
         }
@@ -41,8 +44,8 @@
 
 <body>
     <header>
-        <!-- navbar -->
-        <div class="navbar bg-base-100 w-11/12 max-w-screen-2xl mx-auto font-raleway">
+        <!-- navbar start-->
+        <div class="navbar bg-base-100 w-11/12 max-w-screen-2xl mx-auto font-raleway py-5">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -77,6 +80,27 @@
                 </a>
             </div>
         </div>
+        <!-- navbar end -->
+
+        <!-- hero start -->
+        <div id="hero-section" class="hero w-11/12 max-w-screen-2xl mx-auto bg-hero-image bg-bottom rounded-[2.3rem]">
+            <div class="hero-overlay bg-opacity-40 rounded-[2.3rem]"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-xl">
+                    <h1 class="mb-5 text-5xl font-bold font-raleway">
+                        End-to-End Travel with
+                        <br>
+                        <span class="text-custom-green">Hero Paribahan</span>
+                    </h1>
+                    <p class="mb-5 font-inter">
+                        Our intercity bus company offers comfortable, reliable, and affordable transportation,
+                        connecting you to major cities with ease.
+                    </p>
+                    <button class="btn bg-custom-green border-none font-raleway font-bold">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+        <!-- hero end -->
     </header>
     <main></main>
     <footer></footer>

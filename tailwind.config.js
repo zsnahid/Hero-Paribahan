@@ -13,6 +13,9 @@ module.exports = {
                 inter: 'Inter',
                 raleway: 'Raleway',
             },
+            backgroundImage: {
+                'hero-image': "url(./images/banner.png)",
+            }
         },
     },
     plugins: [],
