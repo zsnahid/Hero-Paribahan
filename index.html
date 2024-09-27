@@ -361,13 +361,13 @@
                         <!-- phone number -->
                         <div class="mb-4">
                             <label for="phone" class="block font-medium mb-2">Phone Number*</label>
-                            <input type="text" placeholder="Enter your phone number" name="phone-number" id="phone"
+                            <input type="number" placeholder="Enter your phone number" name="phone-number" id="phone"
                                 class="border w-full p-4 rounded-xl" required>
                         </div>
                         <!-- email -->
                         <div class="mb-4">
                             <label for="email" class="block font-medium mb-2">Email</label>
-                            <input type="text" placeholder="Enter your email" name="email" id="email"
+                            <input type="email" placeholder="Enter your email" name="email" id="email"
                                 class="border w-full p-4 rounded-xl">
                         </div>
                         <div class="mb-4">
@@ -375,7 +375,7 @@
                                 Next
                             </button>
                         </div>
-                        <div class="flex justify-between items-center mb-4">
+                        <div class="flex justify-around items-center mb-4">
                             <a href="#" class="underline text-gray-500 text-sm">
                                 Terms and Conditions
                             </a>
@@ -387,8 +387,40 @@
                 </div>
             </div>
         </section>
+        <!-- seat selection end -->
     </main>
-    <footer></footer>
+    <footer class="bg-black text-white py-20">
+        <section class="w-11/12 max-w-screen-xl mx-auto">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h2 class="text-3xl font-bold font-raleway mb-4 text-custom-green">Hero Paribahan</h2>
+                    <p>Hero Paribahan is digital platform to make your daily commuting better</p>
+                </div>
+                <div>
+                    <p class="mb-4 font-bold">Download Our App</p>
+                    <button class="flex items-center gap-2 border rounded-md p-1">
+                        <figure>
+                            <img src="./images/playstore.png" alt="playstore icon">
+                        </figure>
+                        <p class="text-left">
+                            GET IT ON
+                            <br>
+                            <span class="text-xl font-semibold">Google Play</span>
+                        </p>
+                    </button>
+                </div>
+            </div>
+            <div class="border border-dashed my-8"></div>
+            <div class="flex justify-between items-center">
+                <p class="text-sm text-gray-500">All rights reserverd @ Hero-Paribahan 2024</p>
+                <div class="flex items-center gap-8 text-sm font-bold">
+                    <p>Terms and Conditions</p>
+                    <p>Return and Refund Policy</p>
+                    <p>Cancellation Policy</p>
+                </div>
+            </div>
+        </section>
+    </footer>
     <script src="./js/index.js"></script>
 </body>
 
